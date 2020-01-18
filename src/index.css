@@ -1,9 +1,44 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ body {
+   margin: 0 auto;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+     sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+ }
+
+ /* Creating export */
+
+ @media (min-width: 576px) {}
+
+
+ @media (min-width: 768px) {
+   .container {
+     width: 750px;
+     margin: 0 auto;
+   }
+ }
+
+
+ @media (min-width: 992px) {
+   .container {
+     width: 970px
+   }
+ }
+
+
+ @media (min-width: 1200px) {
+   .container {
+     width: 1140px
+   }
+ }
+
+ @media (min-width: 1280px) {
+  .container {
+    width: 1280px
+  }
 }
 
+
+
+ /* Modular Css:https://medium.com/@pioul/modular-css-with-react-61638ae9ea3e */

@@ -1,0 +1,44 @@
+:root {
+    --display-grid-property: grid;
+
+    /* find way to import css variable */
+}
+
+
+header.navbar-header-section {
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    background-color: #616161;
+}
+
+Nav.navbarTag {
+    display: var(--display-grid-property);
+    grid-template-columns: 2fr 1fr;
+}
+
+.navbarTag div{
+    justify-self: start;
+    align-self: center;
+    width: 50%;
+    /* padding-inline-start: 15%; */
+    
+    
+}
+.navbarTag, a{
+    color: white;
+}
+.navbarTag ul{
+    display: grid;
+    list-style: none;
+    /* grid-template-columns:repeat(auto, 1fr); */
+    grid-template-columns: repeat(auto-fill, 33.3%); /* auto fill on min and max of 33%*/
+    align-items: center;
+}
+.navbarTag div{
+    margin: 2% 0;
+    /* font-size: 1.5em; */
+    font-weight: normal;
+}
+
+
+/* css logical properties:https://medium.com/@elad/new-css-logical-properties-bc6945311ce7 */

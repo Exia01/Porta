@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import classes from '../../../static/styles/NaviagationItems.module.css';
+import classes from '../../../CSSModules/NaviagationItems.module.css';
 //passing boolean props layout
 const NavigationItems = props => {
   return (

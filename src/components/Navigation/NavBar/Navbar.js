@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from '../../../static/styles/Navbar.module.css';
+import classes from '../../../CSSModules/Navbar.module.css';
 import NavigationItems from '../NavigationItems/NavigationItems';
 
 const Navbar = props => {
@@ -7,7 +7,7 @@ const Navbar = props => {
   return (
     <header className={classes['navbar-header-section']}>
       <nav className={combineClasses}>
-        <div className={classes.headerSectionNameTitle}><h2> Jose Gonzalez</h2></div>
+        <div className={classes.headerSectionNameTitle}><h3> Jose Gonzalez</h3></div>
         <NavigationItems />
       </nav>
     </header>

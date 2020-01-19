@@ -1,9 +1,13 @@
-import React from 'react'
-import classes from './Spinner.module.css'
+import React from 'react';
+import classes from './Spinner.module.css';
 
 const Spinner = () => (
-    <div className={classes.Loader}>Loading...</div>
-)
+  <div className={classes['lds-ellipsis']}>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+);
 
-
-export default Spinner
+export default Spinner;

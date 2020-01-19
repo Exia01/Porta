@@ -16,28 +16,35 @@ Nav.navbarTag {
     grid-template-columns: 2fr 1fr;
 }
 
-.navbarTag div{
+.navbarTag div {
     justify-self: start;
     align-self: center;
     width: 50%;
     /* padding-inline-start: 15%; */
-    
-    
+
+
 }
-.navbarTag, a{
+
+.navbarTag,
+a {
     color: white;
 }
-.navbarTag ul{
+
+.navbarTag ul {
     display: grid;
     list-style: none;
-    /* grid-template-columns:repeat(auto, 1fr); */
-    grid-template-columns: repeat(auto-fill, 33.3%); /* auto fill on min and max of 33%*/
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(auto-fill, 33.3%);  */
+    /* auto fill on min and max of 33%*/
     align-items: center;
+    justify-items: end;
 }
-.navbarTag div{
+
+.navbarTag div {
     margin: 2% 0;
     /* font-size: 1.5em; */
     font-weight: normal;
+    justify-items: end;
 }
 
 

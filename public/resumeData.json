@@ -4,10 +4,9 @@
     "occupation": "Front End Developer + Mern Stack Developer",
     "description": "",
     "image": "profilepic.jpg",
-    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "bio": "",
+    "contactmessage": "",
+    "email": "gonzalezj.net",
     "address": {
       "city": "Arlington",
       "state": "VA"
@@ -86,6 +85,7 @@
     "projects": [
       {
         "title": "Todo App",
+        "projectImages": "TodoApp",
         "category": "Self taught project",
         "image": "TodoListMainPage.png",
         "url": "https://tst-todoapp.herokuapp.com/",

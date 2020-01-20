@@ -1,0 +1,58 @@
+.jobTitleSection {
+    display: grid;
+    justify-items: center;
+    padding: 5%;
+    color: white;
+    background-color: #424242;
+}
+
+.projectSection {
+    /* margin-top: 2%; */
+    display: grid;
+    justify-items: center;
+    grid-auto-columns: 1fr;
+    gap: 0em 1.0em;
+}
+
+.projectSection .projectSectionHeader {
+    font-weight: normal;
+    font-size: 1.1em;
+    grid-row: 1;
+    grid-column: 1 / span 3;
+}
+.projectSection .projectsError {
+    grid-column: 1 / span 3;
+    align-items: center;
+    display: grid;
+    color: darkred;
+    margin-top: 2%;
+}
+
+/* 
+
+.projectSection .projects {
+    display: grid;
+    justify-items: center;
+}
+
+.projectSection .projectDisplayImage {
+    width: 100%;
+    /* max-width: 400px; */
+
+@media (min-width: 576px) {}
+
+
+@media (min-width: 768px) {}
+
+
+@media (min-width: 992px) {}
+
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1280px) {}
+
+
+
+/* https://labs.jensimmons.com/2017/01-003E.html */
+/* https://www.youtube.com/watch?v=EashgVqboWo */

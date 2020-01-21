@@ -1,7 +1,7 @@
 .jobTitleSection {
     display: grid;
     justify-items: center;
-    padding: 5%;
+    padding: 3%; /* old: 5% */
     color: white;
     background-color: #424242;
 }
@@ -28,16 +28,18 @@
     margin-top: 2%;
 }
 
-/* 
-
-.projectSection .projects {
+.skillsSection {
+    margin-top: 2%;
+    background-color: #f5f5f5;
     display: grid;
     justify-items: center;
+    grid-auto-columns: 1fr;
+    gap: 0em 1.0em;
+}
+.skillsSection .skillsSectionHeader{
+    justify-self: center;
 }
 
-.projectSection .projectDisplayImage {
-    width: 100%;
-    /* max-width: 400px; */
 
 @media (min-width: 576px) {}
 
@@ -56,3 +58,16 @@
 
 /* https://labs.jensimmons.com/2017/01-003E.html */
 /* https://www.youtube.com/watch?v=EashgVqboWo */
+
+
+
+/* 
+Styles for individual projects
+.projectSection .projects {
+    display: grid;
+    justify-items: center;
+}
+
+.projectSection .projectDisplayImage {
+    width: 100%;
+    /* max-width: 400px; */

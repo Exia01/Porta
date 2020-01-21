@@ -2,8 +2,7 @@ import React from 'react';
 import classes from '../../CSSModules/Project.module.css';
 
 const Project = props => {
-    console.log(props)
-  let { title, tech, url, image, projectImages } = props.projectData;
+  let { title, url, image, projectImages } = props.projectData;
   let projectMainImage = `images/portfolio/${projectImages}/${image}`;
   return (
     <div className={classes.projects}>

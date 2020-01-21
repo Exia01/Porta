@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import classes from '../../CSSModules/Layout.module.css'; //module css
 import Navbar from '../../components/Navigation/NavBar/Navbar';
-import MainContent from '../../containers/MainContent';
 
 class Layout extends Component {
   state = {

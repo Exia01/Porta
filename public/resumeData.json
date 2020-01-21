@@ -27,7 +27,7 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage": "",
     "education": [
       {
         "school": "Coding Dojo",
@@ -52,32 +52,28 @@
     ],
     "skills": [
       {
-        "name": "Git",
-        "level": "%"
+        "name": "Html, JavaScript, CSS",
+        "image":"frontEndWebIcons.png"
       },
       {
-        "name": "",
-        "level": "%"
+        "name": "Bootstrap",
+        "image":"bootstrap.png"
       },
       {
         "name": "ReactJs",
-        "level": "50%"
+        "image":"reactJS.png"
       },
       {
-        "name": "CSS",
-        "level": "90%"
-      },
-      {
-        "name": "HTML5",
-        "level": "%"
-      },
-      {
-        "name": "",
-        "level": "%"
+        "name": "Node.js",
+        "image":"nodeJS.png"
       },
       {
         "name": "MongoDB",
-        "level": "%"
+        "image":"MongoDB_Logo_.png"
+      },
+      {
+        "name": "GitHub",
+        "image": "GitHub-Mark.png"
       }
     ]
   },

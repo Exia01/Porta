@@ -8,7 +8,7 @@
 }
 
 .projectSection {
-    /* margin-top: 2%; */
+    margin-top: 5%;
     display: grid;
     justify-items: center;
     grid-auto-columns: 1fr;

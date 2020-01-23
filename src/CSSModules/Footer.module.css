@@ -1,0 +1,19 @@
+.footer{
+    background-color: #616161;
+    padding: 2% 0;
+    margin-block-start: 2%;
+}
+.footerGridSection{
+    margin: 2% initial;
+    display: grid;
+    grid-template-columns: repeat(4,5%);
+    justify-items: center;
+    justify-content: center;
+    grid-gap: 0 0.2em;
+    
+}
+
+.footerGridSection a{
+    font-size: 2rem;
+    color: #ffffff;
+}

@@ -28,8 +28,7 @@ Nav.navbarTag {
 
 }
 
-.navbarTag,
-a {
+.navbarTag, .navbarTag .ulTags  a {
     color: white;
 }
 

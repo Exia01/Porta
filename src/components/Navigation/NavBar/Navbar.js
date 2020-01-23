@@ -8,7 +8,7 @@ const Navbar = props => {
     <header className={classes['navbar-header-section']}>
       <nav className={combineClasses}>
         <div className={classes.headerSectionNameTitle}><h3> Jose Gonzalez</h3></div>
-        <NavigationItems />
+        <NavigationItems  classes={classes.ulTags}/>
       </nav>
     </header>
   );

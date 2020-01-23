@@ -87,6 +87,24 @@
         "url": "https://tst-todoapp.herokuapp.com/",
         "tech": "Node, MongoDb, Ejs, Express, Axios",
         "external": false
+      },
+      {
+        "title": "Project 2",
+        "projectImages": "TodoApp",
+        "category": "Self taught project",
+        "image": "TodoLanding.png",
+        "url": "https://tst-todoapp.herokuapp.com/",
+        "tech": "Node, MongoDb, Ejs, Express, Axios",
+        "external": false
+      },
+      {
+        "title": "Project 3",
+        "projectImages": "TodoApp",
+        "category": "Self taught project",
+        "image": "TodoDeleteNoteAction.png",
+        "url": "https://tst-todoapp.herokuapp.com/",
+        "tech": "Node, MongoDb, Ejs, Express, Axios",
+        "external": false
       }
     ]
   }

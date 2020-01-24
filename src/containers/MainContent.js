@@ -37,6 +37,10 @@ export class MainContent extends Component {
 
   render() {
     let projects
+    let skills
+    let testProject
+    let tempDiv
+
     if (this.state.data === null) {
       projects = (
         <div className={classes.projectsError}>
@@ -47,6 +51,22 @@ export class MainContent extends Component {
       projects = this.state.data.portfolio.projects.map(projectData => {
         return <Project projectData={projectData} key={projectData.title} />;
       })
+      skills = <Skills skills={this.state.data.resume.skills} />
+      testProject = this.state.data.portfolio.projects[0]
+      console.log(testProject)
+
+      tempDiv = (
+
+        <div>
+          <section className="projectPageSection">
+            <div className="projectPageTitle">
+              <h1>{testProject.title}</h1>
+            </div>
+            <div className="projectPageContent">
+            </div>
+          </section>
+        </div>
+      )
     }
 
     return (
@@ -63,7 +83,10 @@ export class MainContent extends Component {
           </div>
           {projects}
         </section>
-        {this.state.data !== null ? <Skills skills={this.state.data.resume.skills} /> : null}
+        {skills}
+        {tempDiv}
+
+
       </React.Fragment>
     );
   }
@@ -71,7 +94,6 @@ export class MainContent extends Component {
 
 export default MainContent;
 
-// <Skills skills={this.state.data.resume.skills}/>
 
-
-// https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html
+    // https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html
+    // {this.state.data !== null ? <Skills skills={this.state.data.resume.skills} /> : null}

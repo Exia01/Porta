@@ -17,3 +17,14 @@
     font-size: 2rem;
     color: #ffffff;
 }
+.credits{
+    background-color: #424242;
+    display: grid;
+    justify-items: center;
+    color: #ffffff;
+    height: auto;
+}
+.credits h4{
+    margin-block-start: 1%;
+    margin-block-end: 1%;
+}

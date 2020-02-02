@@ -35,9 +35,10 @@ Nav.navbarTag {
 .navbarTag ul {
     display: grid;
     list-style: none;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     /* grid-template-columns: repeat(auto-fill, 33.3%);  */
     /* auto fill on min and max of 33%*/
+    /* gap: 0em 0.5em; */
     align-items: center;
     justify-items: end;
 }

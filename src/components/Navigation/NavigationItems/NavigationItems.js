@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 //passing boolean props layout
 const NavigationItems = props => {
@@ -9,8 +10,21 @@ const NavigationItems = props => {
           LinkedIn
         </a>
       </li>
-      <li>Resume</li>
-      <li>Projects</li>
+      <li>
+        <a href='http://LinkedIn.com' target='_blank' rel='noopener noreferrer'>
+          Resume
+        </a>
+      </li>
+      <li>
+        <a href='http://LinkedIn.com' target='_blank' rel='noopener noreferrer'>
+          Github
+        </a>
+      </li>
+      <li>
+        <a href='http://LinkedIn.com' target='_blank' rel='noopener noreferrer'>
+          Projects
+        </a>
+      </li>
     </ul>
   );
 };

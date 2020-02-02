@@ -53,6 +53,7 @@ export class MainContent extends Component {
       })
       skills = <Skills skills={this.state.data.resume.skills} />
       testProject = this.state.data.portfolio.projects[0]
+      let tempImage = `images/portfolio/TodoApp/${testProject.image}`;
       console.log(testProject)
 
       tempDiv = (
@@ -61,6 +62,9 @@ export class MainContent extends Component {
           <section className="projectPageSection">
             <div className="projectPageTitle">
               <h1>{testProject.title}</h1>
+            </div>
+            <div className="projectPageImages">
+            <img src={tempImage} alt="Project Img"/>
             </div>
             <div className="projectPageContent">
             </div>

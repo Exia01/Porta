@@ -11,18 +11,18 @@ const Footer = () => {
     <React.Fragment>
       <footer className={classes.footer}>
         <section className={combineClasses}>
-          <a href='http://' target='_blank' rel='noopener noreferrer'>
-            <FontAwesomeIcon icon='envelope' />
-          </a>
-          <a href='http://' target='_blank' rel='noopener noreferrer'>
-            <FontAwesomeIcon icon='file-alt' />
-          </a>
-          <a href='http://' target='_blank' rel='noopener noreferrer'>
-            <FontAwesomeIcon icon={['fab', 'github']} />
-          </a>
-          <a href='http://' target='_blank' rel='noopener noreferrer'>
-            <FontAwesomeIcon icon={['fab', 'linkedin']} />
-          </a>
+        <a href='http://' target='_blank' rel='noopener noreferrer'>
+        <FontAwesomeIcon icon={['fab', 'linkedin']} />
+        </a>
+        <a href='http://' target='_blank' rel='noopener noreferrer'>
+        <FontAwesomeIcon icon={['fab', 'github']} />
+        </a>
+        <a href='http://' target='_blank' rel='noopener noreferrer'>
+        <FontAwesomeIcon icon='file-alt' />
+        </a>
+        <a href='http://' target='_blank' rel='noopener noreferrer'>
+          <FontAwesomeIcon icon='envelope' />
+        </a>
         </section>
       </footer>
       <div className={classes.credits}>

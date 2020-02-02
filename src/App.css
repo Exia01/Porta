@@ -1,3 +1,13 @@
-.projectPageSection{
+html,
+/* body {
+    font-family: 'Montserrat', sans-serif;
+} */
+
+.projectPageSection {
     display: grid;
+}
+
+.projectPageTitle{
+    grid-column: span 5;
+    justify-self: center;
 }
